@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+<form id="main_form" method="post">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" placeholder="Имя"><br><br>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" placeholder="Пароль"><br><br>
+    <label for="repassword">Проверка пароля:</label>
+    <input type="password" name="repassword" placeholder="Проверка пароля" id="repassword"><br><br>
+    <span id="sp">Пол:</span>
+    <input type="radio" id="male" name="state" value="Мужской">
+    <label for = "male">Мужской</label>
+    <input type="radio" name="state" id = "female" value="Женский">
+    <label for = "female">Женский</label><br><br>
+    <span id="error"></span><br>
+    <input type = "submit" name="submit" value="Готово">
+</form>
+<script src = "Form_test.js"></script>
+</body>
+</html>
